@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
         skillName.textContent = skillData.skill;
 
         // Set initial progress value
-        const duration = 1000; // Duration in milliseconds
+        const duration = 10000; // Duration in milliseconds
         const endOffset = (502 * skillData.percent) / 100;
         fillCircle.style.strokeDashoffset = 502;
          // Initially full circle
